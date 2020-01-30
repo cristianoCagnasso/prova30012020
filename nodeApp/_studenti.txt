@@ -1,0 +1,8 @@
+[
+{"_id":1.0,"nome":"Aurora","eta":16.0,"residenza":"Saluzzo","sports":["basket", "volley"],"classe":"1A", "punteggio":125},
+{"_id":2.0,"nome":"Lorena","eta":40.0,"residenza":"Savigliano","sports":["bocce"],"classe":"2A", "punteggio":254},
+{"_id":3.0,"nome":"Mauro","eta":42.0,"residenza":"Savigliano","sports":["basket", "bike", "ping-pong"],"classe":"3A", "punteggio":12},
+{"_id":4.0,"nome":"Pietro","eta":5.0,"residenza":"Savigliano","sports":["basket"],"classe":"3A", "punteggio":25},
+{"_id":5.0,"nome":"Simone","eta":18.0,"residenza":"Fossano","sports":["bike"],"classe":"3A", "punteggio":320},
+{"_id":6.0,"nome":"Giovanna","eta":25.0,"residenza":"Saluzzo","sports":["basket"],"classe":"2A", "punteggio":189}
+]

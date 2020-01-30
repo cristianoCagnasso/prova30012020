@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<meta charset="UTF-8"> 
+	<title>Dettagli studente</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="libreria.js"></script>
+	<script type="text/javascript" src="page.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+</head>
+
+<body>
+	<h2>Scegli uno studente dalla lista</h2>
+	<form name="form1" action="/page.html" method="post" >
+	    <select id="lstStudenti" name="lstStudenti"> </select>
+		<button type="submit" class="btn btn-primary">Invia</button>
+		<br/><br/>
+		
+		<fieldset id="dettagli" style="width:400px">
+		    <legend> Dettagli  </legend>
+			<label for="txtCodice" id="lblCodice">Codice: </label>
+			<input type="text" id="txtCodice" value="" />  <br/>
+			<label for="txtNome" id="lblNome">Nome: </label>
+			<input type="text" id="txtNome" />  <br/>
+			<label for="txtEta" id="lblEta">Età: </label>
+			<input type="text" id="txtEta" />  <br/>
+			<label for="txtResidenza" id="lblResidenza">Residenza: </label>
+			<input type="text" id="txtResidenza" />  <br/>
+			<label for="txtSport" id="lblSport">Sport: </label>
+			<input type="text" id="txtSport" />  <br/>
+			<button id="btnModifica" class="btn btn-primary">Modifica studente</button>
+		</fieldset>
+	<form>
+</body>
+</html>
